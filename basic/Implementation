@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+class Sneha {
+    public:
+    int data;
+    Sneha* ptr;
+    Sneha(int data){
+        this->data = data;
+        this->ptr = ptr;
+    }
+};
+int main(){
+    Sneha* node1  = new Sneha(10);
+    cout<<node1->data;
+}
